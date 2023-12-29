@@ -38,7 +38,6 @@ router.put(
     usuariosPut
 );
 
-// verifica que el correo venga en el body
 router.post(
     "/",
     [

@@ -34,7 +34,6 @@ const login = async (req, res = response) => {
         // generar el json web token
         const token = await generarJWT(usuario.id)
 
-
         res.json({
             usuario,
             token

@@ -4,6 +4,7 @@ const bcryptjs = require("bcryptjs");
 const Usuario = require("../models/usuario");
 const { emailExiste } = require("../helpers/db-validators");
 
+
 const usuariosGet = async (req, res = response) => {
 
     const { limite = 5, desde = 0 } = req.query;
