@@ -14,4 +14,7 @@ npm i mongoose
 npm i bcryptjs
 npm i express-validator
 npm i jsonwebtoken
+
+// sacada de la web de google
+npm i google-auth-library --save
 ```
