@@ -23,10 +23,15 @@ const obtenerCategorias = async (req, res = response) => {
 // obtener categoria - populate {}
 const obtenerCategoria = async (req, res = response) => {
 	const { id } = req.params;
-	const categoria = await Categoria.findById(id).populate(
-		'usuario',
-		'nombre'
-	);
+
+	// funcion esperada
+	// const categoria = await Categoria.findById(id).populate('usuario','nombre');
+
+
+	// funcion esperada
+	// Categoria.findById()
+
+	const categoria = await Categoria.findByI (id).populate('usuario','nombre');
 
 	res.json(categoria);
 };

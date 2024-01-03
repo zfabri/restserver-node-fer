@@ -17,4 +17,8 @@ npm i jsonwebtoken
 
 // sacada de la web de google
 npm i google-auth-library --save
+
+npm i express-fileupload
+npm i uuid
+npm i cloudinary
 ```
